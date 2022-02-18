@@ -7,8 +7,9 @@ class CountdownModule extends Module {
   @override
   List<GetPage> routers = [
     GetPage(
-        name: '/countdown',
-        page: () => const CountdownPage(),
-        binding: CountdownBindings()),
+      name: '/countdown',
+      page: () => const CountdownPage(),
+      binding: CountdownBindings(),
+    ),
   ];
 }

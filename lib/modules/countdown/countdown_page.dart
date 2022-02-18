@@ -1,11 +1,11 @@
 import 'package:countdown_counter/app/themes/styles/app_colors.dart';
 import 'package:countdown_counter/app/themes/styles/app_text_styles.dart';
-import 'package:countdown_counter/countdown/widgets/default_button_widget.dart';
-import 'package:countdown_counter/countdown/widgets/default_divider_widget.dart';
-import 'package:countdown_counter/countdown/widgets/default_text_widget.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import './countdown_controller.dart';
+import 'widgets/default_button_widget.dart';
+import 'widgets/default_divider_widget.dart';
+import 'widgets/default_text_widget.dart';
 
 class CountdownPage extends GetView<CountdownController> {
   const CountdownPage({Key? key}) : super(key: key);

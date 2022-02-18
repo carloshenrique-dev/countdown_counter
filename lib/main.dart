@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'countdown/countdown_module.dart';
+import 'modules/countdown/countdown_module.dart';
 
 void main() {
   runApp(const CountdownTimerApp());
